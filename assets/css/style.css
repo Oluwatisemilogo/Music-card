@@ -1,0 +1,103 @@
+*,html,body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: hsl(229, 100%, 91%);
+}
+.Total {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Total .desk {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.Total .card {
+    width: 520px;
+    height: 785px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 2;
+    background: #fff;
+    box-shadow: 10px 40px 20px rgba(0, 0, 0, 0.068);
+}
+.Total .card .image {
+    width: 100%;
+    height: 250px;
+}
+.Total .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Total .card .Main {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+.Total .card .Main h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.Total .card .Main p {
+    font-size: 20px;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+button {
+    font-size: 20px;
+}
+.Total .card .Main .whole {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 14px;
+}
+.Total .card .Main .whole img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.Total .card .Main .whole h3 {
+    margin-bottom: 4px;
+}
+.Total .card .Main .whole button {
+    margin-left: auto;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+    color: hsl(223, 71%, 50%);
+}
+.Payment {
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 0;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    box-shadow: 10px 40px 20px rgba(0, 0, 0, 0.075);
+}
+.Cancel {
+    border: none;
+    color: black;
+    background-color: transparent;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-weight: 700;
+}
